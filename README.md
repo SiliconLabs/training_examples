@@ -18,6 +18,7 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 ## Examples ##
 
 - Zigbee Boot Camp
+- Bluetooth SSv5 Lab 2 - iBeacon Component
 
 ## Documentation ##
 
