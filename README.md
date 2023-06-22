@@ -17,6 +17,8 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
+- Dev Lab: Adafruit 13x9 RGB LED Matrix
+- MG24 Tech Lab
 - Zigbee Boot Camp
 - Bluetooth SSv5 Lab 2 - iBeacon Component
 
