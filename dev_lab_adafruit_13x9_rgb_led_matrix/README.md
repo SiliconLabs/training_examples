@@ -1,5 +1,5 @@
 # Dev Lab: Adafruit 13x9 RGB LED Matrix
-![FT-T&S-721-Dev-Lab-Adafruit-13x9-RGB-LED-Matrix](Images/FT-T&S-721-Dev-Lab-Adafruit-13x9-RGB-LED-Matrix.png) 
+![Silicon Labs - Dev Lab - Adafruit 13x9 RGB LED Matrix](Images/SiliconLabs-DevLab-Adafruit13x9RGBLEDMatrix.png)
 
 This folder contains source code used in the Dev Lab: Adafruit 13x9 RGB LED Matrix training video.
 
