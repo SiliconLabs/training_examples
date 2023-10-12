@@ -17,18 +17,41 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
-- Dev Lab: Adafruit 13x9 RGB LED Matrix
-- MG24 Tech Lab
-- Zigbee Boot Camp
-- Bluetooth SSv5 Lab 2 - iBeacon Component
+### [Dev Lab - Bluetooth AI/ML Magic Wand](dev_lab_bluetooth_ai_ml_magic_wand/README.md)
+
+This project-based Dev Lab steps through the creation of a Magic Wand that detects gestures drawn in the air, using AI/ML, to control a light over Bluetooth. 
+
+The video for this Dev Lab is available on [YouTube](https://youtu.be/ONrmMEgFYMo)
+
+### [Dev Lab - Adafruit 13x9 RGB LED Matrix](dev_lab_adafruit_13x9_rgb_led_matrix/README.md) 
+
+This Dev Lab integrates Adafruit's 13x9 RGB LED Matrix into Bluetooth and Matter over Thread wireless applications. 
+
+The video for this Dev Lab is available on [YouTube](https://youtu.be/eNGRJq4ZlzU).
+
+### [MG24 Tech Lab](mg24_tech_lab/README.md)
+
+Learn about the features of the EFR32MG24 wireless SoC including advanced AI/ML capabilities while getting hands-on experience with these exercises. 
+
+The videos for this series of Tech Labs can be found in the [Silicon Labs Training Library](https://www.silabs.com/support/training/mg24-tech-lab-workshop-series).
+
+### [Bluetooth SSv5 Lab 2 - iBeacon Component](bluetooth_ssv5_lab2_ibeacon_component/README.md)
+
+This project illustrates how to add an iBeacon component to the base SoC_Empty Bluetooth project found in the Simplicity Studio v5 tools.
+
+The step by step instructions for the labs can be found using the Silicon Labs [Lab Manual](https://docs.silabs.com/bluetooth/3.0/lab-manuals/getting-started-with-bluetooth-in-simplicity-studio-v5#lab-2---turn-soc-empty-into-an-ibeacon-using-project-configurator) and a video covering this material is available in the [Silicon Labs Training Library](https://www.silabs.com/support/training/bg22-series-adding-components-to-bluetooth-design/adding-components-to-bluetooth-Lab-2).
+
+### [Zigbee Boot Camp](zigbee_boot_camp/README.md)
+
+This boot camp walks through the creation of Zigbee projects, the content is presented via the [Zigbee Boot Camp Wiki on GitHub](https://github.com/SiliconLabs/IoT-Developer-Boot-Camp/wiki/Zigbee-Boot-Camp)
 
 ## Documentation ##
 
-Official documentation can be found at our [Developer Documentation](https://docs.silabs.com/) page.
+Official documentation on all Silicon Labs technologies can be found at our [Developer Documentation](https://docs.silabs.com/) page.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+To report bugs in the Training Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
 

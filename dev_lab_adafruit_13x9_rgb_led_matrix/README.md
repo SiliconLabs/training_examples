@@ -1,17 +1,9 @@
 # Dev Lab: Adafruit 13x9 RGB LED Matrix
 ![Silicon Labs - Dev Lab - Adafruit 13x9 RGB LED Matrix](Images/SiliconLabs-DevLab-Adafruit13x9RGBLEDMatrix.png)
 
-This folder contains source code used in the Dev Lab: Adafruit 13x9 RGB LED Matrix training video.
-
-The folders are arranged as follows:
-
-* `Common` contains code used in both the Bluetooth and Matter over Thread examples
-* `Bluetooth` contains the final application code for the Bluetooth example
-* `Matter` contains the final application code for the Matter over Thread example
-
 ## About
 
-**Description:**
+The video for this Dev Lab is available on [YouTube](https://youtu.be/eNGRJq4ZlzU) where the video description includes links to further information.
 
 This Dev Lab integrates Adafruit's 13x9 RGB LED Matrix into Bluetooth and Matter over Thread wireless applications.
 
@@ -22,10 +14,10 @@ You will learn:
 * How to control the LED matrix when lighting commands are received in a Bluetooth and Matter over Thread application
 * How to enable development Matter over Thread devices in Google Home's ecosystem 
 
-**Links:**
+## Files and Folders
 
-Visit the Silicon Labs Third-party Hardware Drivers extension on GitHub for to download and install support in Simplicity Studio: https://github.com/SiliconLabs/third_party_hw_drivers_extension
+**Common Folder:** Contains code used in both the Bluetooth and Matter over Thread examples, including extra modules to draw padlocks on the matrix in addition to the light bulbs shown in the video
 
-Visit the Google Home Developer Console to enable development Matter devices: https://console.home.google.com/projects
+**Bluetooth Folder:** Contains the final application code for the Bluetooth example
 
-Visit Adafruit's IS31FL3741 13x9 PWM RGB LED Matrix page for further information about the matrix board: https://www.adafruit.com/product/5201
+**Matter Folder:** Contains the final application code for the Matter over Thread example

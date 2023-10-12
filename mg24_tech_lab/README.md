@@ -2,8 +2,10 @@
    <p align="center">
    <img src="doc/mg24-tech-lab-mobile-banner.png">
    </p>
-  
+
 ## Summary ##
+
+The videos for this series of Tech Labs can be found in the [Silicon Labs Training Library](https://www.silabs.com/support/training/mg24-tech-lab-workshop-series).
 
 Learn about the features of the EFR32MG24 wireless SoC including advanced AI/ML capabilities while getting hands-on experience with these exercises. Each project session will explore and solve challenges developers often face when designing battery-powered IoT end devices.
 

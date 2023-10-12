@@ -2,7 +2,7 @@
 
 ## Summary ##
 
-This project illustrates how to add an iBeacon component to the base SoC_Empty Bluetooth project found in the Simplicity Studio v5 tools.  The example is one of four solutions to lab exercises included in a training using the Simplicity Studio v5 project flow and highlights the use of the Universal Configurator (UC) to add components to projects.  The step by step instructions for the labs and other background information can be found using the Silicon Labs [lab manual](docs.silabs.com).
+This project illustrates how to add an iBeacon component to the base SoC_Empty Bluetooth project found in the Simplicity Studio v5 tools.  The example is one of four solutions to lab exercises included in a training using the Simplicity Studio v5 project flow and highlights the use of the Universal Configurator (UC) to add components to projects.  The step by step instructions for the labs and other background information can be found using the Silicon Labs [lab manual](https://docs.silabs.com/bluetooth/3.0/lab-manuals/getting-started-with-bluetooth-in-simplicity-studio-v5#lab-2---turn-soc-empty-into-an-ibeacon-using-project-configurator) and a video covering this material is available in the [Silicon Labs Training Library](https://www.silabs.com/support/training/bg22-series-adding-components-to-bluetooth-design/adding-components-to-bluetooth-Lab-2).
 
 Lab manual contents:
 
