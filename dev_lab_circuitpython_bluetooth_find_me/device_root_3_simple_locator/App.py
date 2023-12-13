@@ -127,7 +127,7 @@ class App():
             # Read buttons
             self.hw["btn_high"].read()
             self.hw["btn_mild"].read()
-            # Has a button been released ? 
+            # Has a button been pressed ? 
             if self.hw["btn_high"].pressed or self.hw["btn_mild"].pressed:
                 # Running as target ?
                 if self.ble["locate_level"] == ALERT_LEVEL_NONE:
@@ -136,12 +136,12 @@ class App():
                         if self.debug: print(f'INFO: Target mode alert cancelled locally')
                         # Update characteristic
                         self.ble["ias"].alert_level = ALERT_LEVEL_NONE
-                    # High button released ?
+                    # High button pressed ?
                     elif self.hw["btn_high"].pressed:
                         if self.debug: print(f'INFO: Locate mode high')
                         # Go to locate level high
                         self.ble["locate_level"] = ALERT_LEVEL_HIGH
-                    # Mild button released ?
+                    # Mild button pressed ?
                     elif self.hw["btn_mild"].pressed:
                         if self.debug: print(f'INFO: Locate mode mild')
                         # Go to locate level mild
@@ -156,7 +156,7 @@ class App():
 
             # Read tick timers
             self.ticks["leds"].read()
-            self.ticks["locate"].read() 
+            self.ticks["locate"].read()            
 
             # Running as target ?
             if self.ble["locate_level"] == ALERT_LEVEL_NONE: 

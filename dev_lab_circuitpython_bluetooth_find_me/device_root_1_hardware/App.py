@@ -105,7 +105,7 @@ class App():
             self.hw["btn_high"].read()
             self.hw["btn_mild"].read()
             
-            # Mild button released ? 
+            # Mild button pressed ? 
             if self.hw["btn_mild"].pressed:
                 # Not playing mild tune ? 
                 if self.hw["rtttl"].play_name != self.data["tune_name_mild"]:
@@ -115,7 +115,7 @@ class App():
                     self.data["led_mask_mild"] = 0b0101010101
                     # Turn off high LED
                     self.data["led_mask_high"] = 0b0     
-                # Playing high tune ?
+                # Playing mild tune ?
                 else:
                     # Stop playing
                     self.hw["rtttl"].stop()
@@ -124,7 +124,7 @@ class App():
                     # Turn off mild LED
                     self.data["led_mask_mild"] = 0b1 
 
-            # High button released ? 
+            # High button pressed ? 
             if self.hw["btn_high"].pressed:
                 # Not playing high tune ? 
                 if self.hw["rtttl"].play_name != self.data["tune_name_high"]:
@@ -145,7 +145,7 @@ class App():
             
             # Drive rtttl
             self.hw["rtttl"].main() 
-            
+
             # Read tick timers
             self.ticks["leds"].read()
 

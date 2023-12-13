@@ -124,16 +124,13 @@ class App():
             # Read buttons
             self.hw["btn_high"].read()
             self.hw["btn_mild"].read()
-            # Has a button been released ? 
+            # Has a button been pressed ? 
             if self.hw["btn_high"].pressed or self.hw["btn_mild"].pressed:
                 # Sounding alert ?
                 if self.ble["ias"].alert_level != ALERT_LEVEL_NONE:
                     if self.debug: print(f'INFO: Target mode alert cancelled locally')
                     # Update characteristic
                     self.ble["ias"].alert_level = ALERT_LEVEL_NONE
-
-            # Read tick timers
-            self.ticks["leds"].read()
 
             # Connected changed ?
             if self.ble["connected"] != self.ble["radio"].connected:
@@ -190,6 +187,9 @@ class App():
 
             # Drive rtttl
             self.hw["rtttl"].main() 
+
+            # Read tick timers
+            self.ticks["leds"].read()
 
             # Led tick timer fired ?
             if self.ticks["leds"].fired:
