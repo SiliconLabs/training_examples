@@ -17,13 +17,25 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
+### [Dev Lab - CircuitPython Bluetooth Find Me](dev_lab_circuitpython_bluetooth_find_me/README.md)
+
+![Dev Lab - CircuitPython Bluetooth Find Me](images/Find-Me-200p.png)
+
+This project-based Dev Lab steps through the creation of a Bluetooth Find Me device using CircuitPython. The device operates as a key finder, playing alert tunes using a passive piezo buzzer when activated. Activation can be triggered from a mobile phone using the EFR Connect application or by pressing a button on another Find Me device.
+
+The video for this Dev Lab is available on [YouTube](https://youtu.be/snjrxlaGtik)
+
 ### [Dev Lab - Bluetooth AI/ML Magic Wand](dev_lab_bluetooth_ai_ml_magic_wand/README.md)
+
+![Dev Lab - Bluetooth AI/ML Magic Wand](images/Magic-Wand-200p.png)
 
 This project-based Dev Lab steps through the creation of a Magic Wand that detects gestures drawn in the air, using AI/ML, to control a light over Bluetooth. 
 
 The video for this Dev Lab is available on [YouTube](https://youtu.be/ONrmMEgFYMo)
 
 ### [Dev Lab - Adafruit 13x9 RGB LED Matrix](dev_lab_adafruit_13x9_rgb_led_matrix/README.md) 
+
+![Dev Lab - Adafruit 13x9 RGB LED Matrix](images/LED-Matrix-200p.png)
 
 This Dev Lab integrates Adafruit's 13x9 RGB LED Matrix into Bluetooth and Matter over Thread wireless applications. 
 

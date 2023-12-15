@@ -3,7 +3,7 @@
 
 ## About
 
-The video for this Dev Lab *will be* available on YouTube, where the video description includes links to further information.
+The video for this Dev Lab is available on [YouTube](https://youtu.be/snjrxlaGtik), where the video description includes links to further information.
 
 This project based Dev Lab steps through the creation of a Find Me Bluetooth device, such as a key finder, using CircuitPython as the development language. 
 
