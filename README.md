@@ -17,6 +17,12 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
+### [Quick Start - Arduino Nano Matter](quick_start_arduino_nano_matter/README.md)
+
+![Dev Lab - CircuitPython Bluetooth Find Me](images/Arduino-Nano-Matter-200p.png)
+
+This quick start video introduces the Arduino Nano Matter board and shows how to get started developing Matter over Thread applications. In the video the Matter Dimmable Lightbulb example is adapted to drive and animate a WS2812 RGB LED strip to display the brightness of the light. This example makes the final source code available for download and use.
+
 ### [Dev Lab - CircuitPython Bluetooth Find Me](dev_lab_circuitpython_bluetooth_find_me/README.md)
 
 ![Dev Lab - CircuitPython Bluetooth Find Me](images/Find-Me-200p.png)
