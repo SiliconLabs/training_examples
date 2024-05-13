@@ -4,6 +4,8 @@
 
 ## About
 
+The video for this Dev Lab is available on [YouTube](https://youtu.be/7pXFT4D3ui4), where the video description includes links to further information.
+
 This quick start video introduces the Arduino Nano Matter board and shows how to get started developing Matter over Thread applications. In the video the Matter Dimmable Lightbulb example is adapted to drive and animate a WS2812 RGB LED strip to display the brightness of the light. This example makes the final source code available for download and use.
 
 ## Usage

@@ -1,4 +1,4 @@
-<table border="0">
+##<table border="0">
   <tr>
     <td align="left" valign="middle">
     <h1>EFM32 and EFR32 Training Examples</h1>
@@ -17,9 +17,15 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
+### [Dev Lab - Arduino Matter over Thread Mood Light](dev_lab_arduino_matter_mood_light/README.md)
+
+![Dev Lab - Arduino Matter over Thread Mood Light](images/Arduino-Matter-Mood-Light-200p.png)
+
+This Dev Lab walks through the creation of a Matter over Thread Mood Light using the Arduino IDE. The Dev Lab uses the Arduino Nano Matter board and is compatible with other EFR32MG24 boards featuring Silicon Labs EFRMG24 multi-protocol wireless microcontroller. The completed device includes two color bulb endpoints, modes are available to display solid colors, animated gradients between the two colors and a variety of plasma-like animations. The device can be commissioned into Matter ecosystems from Amazon, Google and Apple.
+
 ### [Quick Start - Arduino Nano Matter](quick_start_arduino_nano_matter/README.md)
 
-![Dev Lab - CircuitPython Bluetooth Find Me](images/Arduino-Nano-Matter-200p.png)
+![Quick Start - Arduino Nano Matter](images/Arduino-Nano-Matter-200p.png)
 
 This quick start video introduces the Arduino Nano Matter board and shows how to get started developing Matter over Thread applications. In the video the Matter Dimmable Lightbulb example is adapted to drive and animate a WS2812 RGB LED strip to display the brightness of the light. This example makes the final source code available for download and use.
 
