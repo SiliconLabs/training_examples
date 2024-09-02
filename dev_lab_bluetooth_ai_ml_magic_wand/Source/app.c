@@ -136,6 +136,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // Set state
     sc = app_set_state(APP_STATE_SCAN);
     // Start scanning
+    sc = sl_bt_scanner_set_parameters(sl_bt_scanner_scan_mode_active, 32, 32);
     sc = sl_bt_scanner_start(sl_bt_gap_1m_phy, sl_bt_scanner_discover_generic);
     app_log("0x%04x = sl_bt_scanner_start()\r\n", (uint16_t ) sc);
     break;
@@ -279,6 +280,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // Set state
     sc = app_set_state(APP_STATE_SCAN);
     // Start scanning
+    sc = sl_bt_scanner_set_parameters(sl_bt_scanner_scan_mode_active, 32, 32);
     sc = sl_bt_scanner_start(sl_bt_gap_1m_phy, sl_bt_scanner_discover_generic);
     app_log("0x%04x = sl_bt_scanner_start()\r\n", (uint16_t ) sc);
     break;
