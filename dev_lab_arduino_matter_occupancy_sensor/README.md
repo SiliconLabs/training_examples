@@ -4,7 +4,7 @@
 
 ## About
 
-This code was created for the **Works With 2024 - Hands-on with the Arduino Nano Matter** session.
+This code was created for the **Works With 2024 - Hands-on with the Arduino Nano Matter** session. 
 
 This project-based Dev Lab steps through the creation of a Matter over Thread Occupancy Sensor in the Arduino IDE using the Arduino Nano Matter board and an optional SR602 PIR sensor that can be connected on a breadboard. The final device reports its occupancy state to a Matter hub which can be configured to perform actions when the occupancy state changes.
 

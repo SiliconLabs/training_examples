@@ -3,7 +3,7 @@
 
 ## About
 
-The video for this Dev Lab is available on [YouTube](https://youtu.be/ONrmMEgFYMo) where the video description includes links to further information.
+The video for this Dev Lab is available on [YouTube](https://youtu.be/ONrmMEgFYMo) where the video description includes links to further information. 
 
 This project-based Dev Lab steps through the creation of a Magic Wand that detects gestures drawn in the air, using AI/ML, to control a light over Bluetooth.
 
