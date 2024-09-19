@@ -10,7 +10,7 @@ This project-based Dev Lab steps through the creation of a Matter over Thread Mo
 
 The final device has the following features:
 
-*  Implements a single Matter over Thread Device with two Color Bulb endpoints
+* Implements a single Matter over Thread Device with two Color Bulb endpoints
 * Two modes display the solid colors set in the endpoints
 * Two modes display an animated gradient between the colors set in the endpoints, one using the short path round the color wheel and the second uses the long path
 * Four modes display an animated plasma effect between the colors set in the endpoints using the two gradients calculated in the gradient mode

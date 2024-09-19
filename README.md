@@ -17,6 +17,12 @@ This repo contains various training examples based on Silicon Labs Hardware and 
 
 ## Examples ##
 
+### [Dev Lab - Arduino Matter over Thread Occupancy Sensor](dev_lab_arduino_matter_occupancy_sensor/README.md)
+
+![Dev Lab - Arduino Matter over Thread Occupancy Sensor](images/Arduino-Matter-Occupancy-Sensor-200p.png)
+
+This project-based Dev Lab steps through the creation of a Matter over Thread Occupancy Sensor in the Arduino IDE using the Arduino Nano Matter board and an optional SR602 PIR sensor that can be connected on a breadboard. The final device reports its occupancy state to a Matter hub which can be configured to perform actions when the occupancy state changes.
+
 ### [Dev Lab - Arduino Matter over Thread Mood Light](dev_lab_arduino_matter_mood_light/README.md)
 
 ![Dev Lab - Arduino Matter over Thread Mood Light](images/Arduino-Matter-Mood-Light-200p.png)
