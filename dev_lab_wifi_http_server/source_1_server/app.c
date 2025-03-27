@@ -394,6 +394,7 @@ static void application_start(void *argument)
   ip_address.type = SL_IPV4;
   memcpy(&ip_address.ip.v4.bytes, &profile.ip.ip.v4.ip_address.bytes, sizeof(sl_ipv4_address_t));
   print_sl_ip_address(&ip_address);
+  printf("\r\n");  
 
   server_config.port             = HTTP_SERVER_PORT;
   server_config.default_handler  = NULL;
