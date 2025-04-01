@@ -4,7 +4,7 @@
 
 ## About
 
-A video that walks through this Dev Lab will be uploaded to YouTube in the near future along with an update to this readme.
+A video for this Dev Lab is available on [YouTube](https://get.silabs.com/gh963yt).
 
 This project-based Dev Lab walks through the creation of a Wi-Fi HTTP Server using the Silicon Labs energy-efficient SiWG917 Wi-Fi 6 SoC. In the video you will how to:
 
