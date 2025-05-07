@@ -4,11 +4,17 @@ This repository contains various training examples based on Silicon Labs Hardwar
 
 ## Examples ##
 
-### [Dev Lab - SiWG917 Wi-Fi HTTP Server](dev_lab_wifi_http_server/README.md)
+### [Dev Lab - SiWG917 Sleeping Wi-Fi HTTP Server](dev_lab_wifi_http_server/README.md)
 
 ![Dev Lab - SiWG917 Wi-Fi HTTP Server](images/dev_lab_wifi_http_server_200p.png)
 
-This project-based Dev Lab walks through the creation of a Wi-Fi HTTP Server using the Silicon Labs energy-efficient SiWG917 Wi-Fi 6 SoC. It starts with the basic HTTP Server example which is included in the Simplicity Studio v5 IDE. The application is then enhanced to serve an auto-refreshing HTML page that includes a timer value and button states. The joining and rejoining process is also improved to make it more robust. The APIs used to create the application are covered along the way.
+![Dev Lab - SiWG917 Wi-Fi HTTP Server](images/dev_lab_sleeping_wifi_http_server_200p.png)
+
+This two-part project-based Dev Lab walks through the creation of a Wi-Fi HTTP Server using the Silicon Labs energy-efficient SiWG917 Wi-Fi 6 SoC. 
+
+The first part starts with the basic HTTP Server example which is included in the Simplicity Studio v5 IDE. The application is then enhanced to serve an auto-refreshing HTML page that includes a timer value and button states. The joining and rejoining process is also improved to make it more robust. The APIs used to create the application are covered along the way.
+
+The second part shows how to apply sleep modes using code and Software Components  to the application to save power, including the use of Simplicity Studio's Energy Profiler to measure the current of the application.
 
 ### [Dev Lab - Arduino Matter over Thread Occupancy Sensor](dev_lab_arduino_matter_occupancy_sensor/README.md)
 
