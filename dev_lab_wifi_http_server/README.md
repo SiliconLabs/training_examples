@@ -16,7 +16,7 @@ This project-based Dev Lab walks through the creation of a Wi-Fi HTTP Server usi
 * Make the joining and rejoining process robust
 * How to use software APIs to construct Wi-Fi applications for the SiWG917
 
-### SiWG917 Sleeping Wi-Fi HTTP Server
+### [SiWG917 Sleeping Wi-Fi HTTP Server](https://youtu.be/r3UyWmVpb2k)
 
 ![thumbnail](images/dev_lab_sleeping_wifi_http_server_360p.png)
 

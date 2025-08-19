@@ -6,7 +6,7 @@
 
 The video for this Dev Lab is available on [YouTube](https://youtu.be/IpvyQGEW5cw), where the video description includes links to further information.
 
-This project-based Dev Lab steps through the creation of a Matter over Thread Mood Light in the Arduino IDE using the Silicon Labs xG24 Explorer Kit and WS2812 RGB LEDs.
+This project-based Dev Lab steps through the creation of a Matter over Thread Mood Light in the Arduino IDE using the Arduino Nano Matter board and WS2812 RGB LEDs.
 
 The final device has the following features:
 
@@ -19,7 +19,7 @@ The final device has the following features:
 
 ### Commissioning
 
-Commissioning into a Matter over Thread network follows the normal process of scanning a QR or entering a manual code in the app for your chosen Matter ecosystem. For Google Home you *may* need to enable test certificates in the Google Developer Console for your Google Home account, the [Quick Start - Matter in Google Home](https://youtu.be/R_kpSO7PtUo) YouTube video walks through this process.
+Commissioning into a Matter over Thread network follows the normal process of scanning a QR code or entering a manual code in the app for your chosen Matter ecosystem. For Google Home you *may* need to enable test certificates in the Google Developer Console for your Google Home account, the [Quick Start - Matter in Google Home](https://youtu.be/R_kpSO7PtUo) YouTube video walks through this process.
 
 A URL to the QR Code and the manual code are both output by the application to the serial port during start up. 
 
