@@ -4,7 +4,7 @@
 
 ## About 
 
-The video for this Dev Lab is coming soon to YouTube, where the video description includes links to further information.
+The video for this Dev Lab is available on [YouTube](https://youtu.be/jk9DFO7I6-w), where the video description includes links to further information.
 
 This project-based Dev Lab steps through the creation of a Matter over Thread ARGB Fan in the Arduino IDE using the Arduino Nano Matter board, an ARGB fan, OLED and other components. The device has the following features:
 
@@ -30,6 +30,25 @@ Once in a network, the ARGB LEDs and on-board LED are green when the fan is in t
 ### Input Controls
 
 The fan can be controlled by an ecosystem app or voice assitant. Pressing the on-board button will cycle through the fan modes.
+
+### ARGB Configuration
+
+The number of ARGB LEDs on the inner and outer rings of the fan can be hardcoded by passing in counts of the outer and/or inner rings into the `argbSetup()` function from the main `setup()` function. 
+
+When passing in 0 for both these parameters, which is the default, fitting a jumper between two pins in the range A0 to A4 and D2 to D6 will use pre-determined configurations as shown in the table below. On the wiring diagrams below these pins are marked INNER and OUTER, on the PCB this pins are on a single row header. Configuration code can be found in the  `argbSetup()` function.
+
+**Note that for fans with two rings the number of LEDs on the outer ring should be double the number on the inner ring (if your fan does not meet this requirement you will need to adapt the code).**
+
+| Jumper Pins | Fan Model                                                    | Outer LEDs | Inner LEDs |
+| ----------- | ------------------------------------------------------------ | ---------- | ---------- |
+| A0-A1       | [Arctic P12 PWM PST A-RGB](https://www.arctic.de/en/P12-PWM-PST-A-RGB/P12A-RGB0dB) | 12         | 0          |
+| A1-A2       | [Cooler Master MasterFan MF120 Halo 2](https://www.coolermaster.com/en-global/products/masterfan-mf120-halo2-white-edition) | 16         | 8          |
+| A3-A4       | Available for user configuration                             | 0          | 0          |
+| A4-D6       | Available for user configuration                             | 0          | 0          |
+| D6-D5       | Available for user configuration                             | 0          | 0          |
+| D5-D4       | Available for user configuration                             | 0          | 0          |
+| D4-D3       | Available for user configuration                             | 0          | 0          |
+| D3-D2       | Available for user configuration                             | 0          | 0          |
 
 ## Software
 
